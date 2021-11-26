@@ -1,0 +1,13 @@
+First time to the program you must set the Door password first, you should enter the desired password second, you should enter again the same password to confirm it
+If the 2 passwords are matched, the password is saved and you go the main options
+Else you should repeat this operation untill complete setting password
+Main Options of the program you can select from 2 options
+Open The Door --> to select this, press '+' then press 'enter'
+Change Application Password --> to select this, press '-' then press 'enter'
+Checking the password after selcting an option, you should enter the password to check if you are the owner or not
+If you enter password correctly your option will execute
+If the option open the door, the door will be opening then hold for some time then closing. during this operation the state of door will show in the LCD then you will go to the main options
+If the option change the password you should set password again as the first time you visit the program then you will go to the main options
+If you enter password wrongly
+If it is the first try or second you will go the main options to try again
+If it is the third try --> may Someone is trying to steal so we turn on buzzer for 1 minute and showing danger state on the LCD and then you will go to the main options
