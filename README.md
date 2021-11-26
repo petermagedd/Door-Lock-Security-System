@@ -3,19 +3,19 @@
 # Sequence of the Application
 1)First time to the program you must set the Application password first, you should enter the desired password second, you should enter the same password again to confirm it:
 
-    a)	if the 2 passwords are matched, the password is saved, and you go the main options
+    a)if the 2 passwords are matched, the password is saved, and you go the main options
 
     b)  else you should repeat this operation until complete setting password
 
 
-2)	Main Options of the program you can select from 2 options:
+2)Main Options of the program you can select from 2 options:
 
     a)	Open The Door --> to select this, press '-' then press 'enter'
 
     b)  Change Application Password --> to select this, press '+' then press 'enter'
 
 
-3)	Checking the password after selecting an option, you should enter the password to check if you are the owner or not:
+3)Checking the password after selecting an option, you should enter the password to check if you are the owner or not:
 
     a)  if you enter password correctly your option will execute:
 
