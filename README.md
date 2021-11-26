@@ -1,5 +1,9 @@
 # Door Lock Security System
 
+# Project Schematic
+![Door Lock Security System-1](https://user-images.githubusercontent.com/74562586/143597711-b2d9b4e7-2f56-4928-9f96-526463459150.jpg)
+
+
 # Layered Arcitecture
 ![layered](https://user-images.githubusercontent.com/74562586/143593176-2e2f3415-2738-40c9-912d-0c7226bf9602.png)
 
