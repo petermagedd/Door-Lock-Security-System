@@ -1,5 +1,9 @@
 # Door Lock Security System
 
+# Layered Arcitecture
+![layered](https://user-images.githubusercontent.com/74562586/143593176-2e2f3415-2738-40c9-912d-0c7226bf9602.png)
+
+
 # Sequence of the Application
 1)First time to the program you must set the Application password first, you should enter the desired password second, you should enter the same password again to confirm it:
 
