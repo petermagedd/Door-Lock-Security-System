@@ -9,33 +9,13 @@
 
 
 # Sequence of the Application
-1)First time to the program you must set the Application password first, you should enter the desired password second, you should enter the same password again to confirm it:
+At first, the user should enter the desired password 2 times to create his password. The UART of the 1st microcontroller send the password to the UART of 2nd microcontroller and then compare them if they are matched then the EEPROM will save it which this EEPROM is attached with the 2nd microcontroller. If the entered passwords aren’t matched, the user should repeat this operation again until he enters 2 matching passwords. (This is the 1st operation).
 
-    a)If the 2 passwords are matched, the password is saved, and you go the main options
+After the desired password is saved successfully, the user has to choose between opening the door or changing his current password with new one.
 
-    b)Else you should repeat this operation until complete setting password
+If the user choose to open the door, the user will enter his password again and then the door will open by the DC Motor is rotating for 15 sec clockwise and hold the door open for 3 sec after that the door will begin closing automatically by rotating the DC Motor for 15 sec counterclockwise. If the user entered the password wrongly for 3 times, the buzzer will turn on for 1 min and ERROR state will appear on the LCD.
 
-
-2)Main Options of the program you can select from 2 options:
-
-    a)Open The Door --> to select this, press '-' then press 'enter'
-
-    b)Change Application Password --> to select this, press '+' then press 'enter'
-
-
-3)Checking the password after selecting an option, you should enter the password to check if you are the owner or not:
-
-    a)If you enter password correctly your option will execute:
-
-      i)If the option open the door, the door will be opening then hold for some time then closing. during this operation the state of door will show in the LCD then you will go         to the main options
-
-      ii)If the option change the password you should set password again as the first time you visit the program then you will go to the main options
-
-
-    b)	if you enter password wrongly:
-
-      i)	if the password is entered three times incorrect, the buzzer will turn on for 1 minute and showing ERROR state on the LCD and then you will go to the main options
-
+If the user chooses to change his password, the user will enter his password again and then the user will repeat all the 1st operation again.
 
 
 
@@ -55,5 +35,33 @@
 •	Resistors
 
 •	L293D
+
+# Implemented Drivers
+
+•	GPIO
+
+•	UART
+
+•	TIMER
+
+•	I2C
+
+•	LCD
+
+•	Keypad
+
+•	Buzzer
+
+•	Dc Motor
+
+•	EEPROM
+
+# Tools
+
+•	Eclipse
+
+•	Proteus
+
+
 
 
