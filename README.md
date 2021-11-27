@@ -1,4 +1,5 @@
 # Door Lock Security System
+Door Locker System consists of two ECU’s. The first ECU called HMI responsible for interfacing with the user connected with LCD and KeyPad, and the second ECU called control ECU which is responsible for the system operations and control and it is connected with Dc Motor and buzzer. The two microcontrollers communicate with each other using the UART.
 
 # Project Schematic
 ![Door Lock Security System-1](https://user-images.githubusercontent.com/74562586/143597711-b2d9b4e7-2f56-4928-9f96-526463459150.jpg)
